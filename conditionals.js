@@ -73,3 +73,11 @@ if (position === 1) {
 }
 
 console.log(runner + ' received a ' + medal + ' medal.');
+
+var number = 4;
+
+if (number % 2 === 1) {
+	console.log('odd');
+} else {
+	console.log('even');
+}
