@@ -135,3 +135,15 @@ var weather = 'nice';
 if (colt === 'not busy' && weather === 'nice') {
 	console.log('go to the park');
 }
+
+/*
+ * Programming Quiz - Checking Your Balance (3-5)
+ */
+
+var balance = 325.0;
+var checkBalance = true;
+var isActive = false;
+
+if (checkBalance === true && isActive === false) {
+	console.log('Your balance is: ' + balance.toFixed(2));
+}
