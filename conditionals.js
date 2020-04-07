@@ -102,7 +102,7 @@ if (musicians < 1) {
 	console.log('this is a large group');
 }
 /*
-	* Programming Quiz: Murder Mystery (3-4)
+	* Programming Quiz: Murder Mystery
 	*/
 
 var room = 'dining room';
@@ -137,7 +137,7 @@ if (colt === 'not busy' && weather === 'nice') {
 }
 
 /*
- * Programming Quiz - Checking Your Balance (3-5)
+ * Programming Quiz - Checking Your Balance
  */
 
 var balance = 325.0;
@@ -146,4 +146,17 @@ var isActive = false;
 
 if (checkBalance === true && isActive === false) {
 	console.log('Your balance is: ' + balance.toFixed(2));
+}
+
+/*
+ * Programming Quiz: Ice Cream
+ */
+
+var flavor = 'strawberry';
+var vessel = 'cone';
+var toppings = 'cookies';
+
+if (flavor === true && vessel === true && toppings === true);
+{
+	console.log(`I'd like two scoops of ${flavor} ice cream in a ${vessel} with ${toppings}.`);
 }
