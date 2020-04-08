@@ -136,3 +136,13 @@ for (i = 1; i <= 12; i++) {
 	solution *= i;
 }
 console.log(solution);
+
+/*
+ * Programming Quiz: Find my Seat
+ */
+
+for (var f = 0; f < 26; f++) {
+	for (l = 0; l < 100; l++) {
+		console.log(f + '-' + l);
+	}
+}
