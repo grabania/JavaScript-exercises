@@ -119,9 +119,20 @@ for (var x = 5; x < 10; x++) {
 }
 
 /*
- * Programming Quiz: Fix the Error 2 (4-6)
+ * Programming Quiz: Fix the Error 2
  */
 
 for (var k = 0; k < 200; k++) {
 	console.log(k);
 }
+
+/*
+ * Programming Quiz: Factorials
+ */
+
+let solution = 1;
+
+for (i = 1; i <= 12; i++) {
+	solution *= i;
+}
+console.log(solution);
