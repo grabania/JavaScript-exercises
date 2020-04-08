@@ -109,3 +109,11 @@ while (x >= 1) {
 for (var x = 9; x >= 1; x--) {
 	console.log('hello ' + x);
 }
+
+/*
+ * Programming Quiz: Fix the Error 1
+ */
+
+for (var x = 5; x < 10; x++) {
+	console.log(x);
+}
