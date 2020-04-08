@@ -117,3 +117,11 @@ for (var x = 9; x >= 1; x--) {
 for (var x = 5; x < 10; x++) {
 	console.log(x);
 }
+
+/*
+ * Programming Quiz: Fix the Error 2 (4-6)
+ */
+
+for (var k = 0; k < 200; k++) {
+	console.log(k);
+}
