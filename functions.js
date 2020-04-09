@@ -28,3 +28,14 @@ function add(x, y) {
 
 // 1 and 2 are passed into the function as arguments
 var sum = add(1, 2);
+
+/*
+ * Programming Quiz: Laugh it Off 1 (5-1)
+ */
+
+function laugh() {
+	var sound = 'hahahahahahahahahaha!';
+	return sound;
+}
+
+console.log(laugh()); /* call the laugh function */
