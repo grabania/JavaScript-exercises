@@ -17,7 +17,7 @@ function findAverage(x, y) {
 	return answer;
 }
 
-var avg = findAverage(5, 9);
+console.log(findAverage(5, 9));
 
 // x and y are parameters in this function declaration
 function add(x, y) {
@@ -27,15 +27,32 @@ function add(x, y) {
 }
 
 // 1 and 2 are passed into the function as arguments
-var sum = add(1, 2);
+console.log(add(1, 2));
 
 /*
- * Programming Quiz: Laugh it Off 1 (5-1)
+ * Programming Quiz: Laugh it Off 1
  */
 
-function laugh() {
-	var sound = 'hahahahahahahahahaha!';
-	return sound;
+function laughh() {
+	return 'hahahahahahahahahaha!';
 }
 
-console.log(laugh()); /* call the laugh function */
+console.log(laughh());
+
+/*
+ * Programming Quiz: Laugh it Off 2
+ */
+var laughString;
+
+function laugh(num) {
+	laughString = '';
+	if (num > 0) {
+		for (var i = num; i > 0; i--) {
+			laughString += 'ha';
+		}
+		laughString += '!';
+	}
+	return laughString;
+}
+
+console.log(laugh(3));
