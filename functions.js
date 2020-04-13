@@ -189,3 +189,14 @@ var laugh = function(num) {
 	return numOfHa;
 };
 console.log(laugh(10));
+
+/*
+ * Programming Quiz: Cry
+ */
+
+var cry = function makeCry(num) {
+	numOfBoo = 'boohoo';
+	return numOfBoo;
+};
+
+console.log(cry());
