@@ -200,3 +200,22 @@ var cry = function makeCry(num) {
 };
 
 console.log(cry());
+
+/*
+ * Programming Quiz: Inline Functions
+ */
+
+function emotions(myString, myFunc) {
+	console.log('I am ' + myString + ', ' + myFunc(2));
+}
+
+emotions('happy', function laugh(num) {
+	var numOfHa = '';
+
+	for (var i = 0; i < num; i++) {
+		numOfHa += 'ha';
+	}
+
+	numOfHa += '!';
+	return numOfHa;
+});
