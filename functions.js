@@ -93,3 +93,12 @@ function divideByThree(y) {
 
 var result = addTen(2);
 console.log(divideByThree(result));
+
+//sayHi function
+
+function sayHi(name) {
+	var greeting = 'Hello';
+	console.log(greeting + ' ' + name);
+}
+
+sayHi('Julia');
