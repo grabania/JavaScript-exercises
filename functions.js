@@ -56,3 +56,40 @@ function laugh(num) {
 }
 
 console.log(laugh(3));
+
+function isThisWorking(input) {
+	console.log('Printing: isThisWorking was called and ' + input + ' was passed in as an argument.');
+	return 'Returning: I am returning this string!';
+}
+
+isThisWorking(3);
+
+function sleep() {
+	console.log("I'm sleepy!");
+	return 'zzz';
+	return 'snore';
+}
+
+sleep();
+
+function square(x) {
+	return x * x;
+}
+
+function subtractFour(x) {
+	return square(x) - 4;
+}
+
+console.log(subtractFour(5));
+
+//Using return value
+function addTen(x) {
+	return x + 10;
+}
+
+function divideByThree(y) {
+	return y / 3;
+}
+
+var result = addTen(2);
+console.log(divideByThree(result));
