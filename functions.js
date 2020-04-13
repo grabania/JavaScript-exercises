@@ -173,3 +173,19 @@ function movies(messageFunction, name) {
 movies(function displayFavorite(movieName) {
 	console.log('My favorite movie is ' + movieName);
 }, 'Finding Nemo');
+
+/*
+ * Programming Quiz: Laugh
+ */
+
+var laugh = function(num) {
+	var numOfHa = '';
+
+	for (var i = 0; i < num; i++) {
+		numOfHa += 'ha';
+	}
+
+	numOfHa += '!';
+	return numOfHa;
+};
+console.log(laugh(10));
