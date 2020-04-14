@@ -39,3 +39,18 @@ var donuts = [ 'glazed', 'chocolate frosted', 'Boston creme', 'glazed cruller' ]
 donuts.splice(1, 1, 'chocolate cruller', 'creme de leche');
 
 console.log(donuts);
+
+/*
+ * Programming Quiz: Colors of the Rainbow
+ *
+ * Use only the splice() method to modify the rainbow variable:
+ *  - remove "Blackberry"
+ *  - add "Yellow" and "Green"
+ *  - add "Purple"
+ */
+
+var rainbow = [ 'Red', 'Orange', 'Blackberry', 'Blue' ];
+
+rainbow.splice(2, 1, 'Yellow', 'Purple');
+
+console.log(rainbow);
