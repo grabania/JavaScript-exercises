@@ -32,3 +32,10 @@ prices[2] = 20;
 prices[6] = 30;
 
 console.log(prices);
+
+//Splice Method
+
+var donuts = [ 'glazed', 'chocolate frosted', 'Boston creme', 'glazed cruller' ];
+donuts.splice(1, 1, 'chocolate cruller', 'creme de leche');
+
+console.log(donuts);
