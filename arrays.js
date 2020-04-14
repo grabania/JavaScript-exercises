@@ -54,3 +54,26 @@ var rainbow = [ 'Red', 'Orange', 'Blackberry', 'Blue' ];
 rainbow.splice(2, 1, 'Yellow', 'Purple');
 
 console.log(rainbow);
+
+/*
+ * Programming Quiz: Quidditch Cup
+ */
+
+function hasEnoughPlayers(team) {
+	if (team.length >= 7) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+var team = [
+	'Oliver Wood',
+	'Angelina Johnson',
+	'Katie Bell',
+	'Alicia Spinnet',
+	'George Weasley',
+	'Fred Weasley',
+	'Harry Potter'
+];
+console.log(hasEnoughPlayers(team));
