@@ -117,8 +117,15 @@ for (var i = 0; i < donuts.length; i++) {
 
 var donuts = [ 'jelly donut', 'chocolate donut', 'glazed donut' ];
 
+// forEach example
 donuts.forEach(function(donut) {
 	donut += ' hole';
 	donut = donut.toUpperCase();
 	console.log(donut);
+});
+
+//another forEach example
+words = [ 'cat', 'in', 'hat' ];
+words.forEach(function(word, num, all) {
+	console.log('Word ' + num + ' in ' + all.toString() + ' is ' + word);
 });
