@@ -63,3 +63,15 @@ console.log(sister.paintPicture());
 // two equivalent ways to use the key to return its value
 console.log(sister['parents']); // returns [ "alice", "andy" ]
 console.log(sister.parents); // also returns ["alice", "andy"]
+
+/*
+ * Programming Quiz: Menu Items
+ */
+
+var breakfast = {
+	name: 'The Lumberjack',
+	price: '$9.95',
+	ingredients: [ 'eggs', 'sausage', 'toast', 'hashbrowns', 'pancakes' ]
+};
+
+console.log(breakfast);
