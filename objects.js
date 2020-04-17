@@ -45,3 +45,21 @@ var umbrella = {
 	}
 };
 console.log(umbrella.open());
+
+//Object Literals
+var sister = {
+	name: 'Sarah',
+	age: 23,
+	parents: [ 'alice', 'andy' ],
+	siblings: [ 'julia' ],
+	favoriteColor: 'purple',
+	pets: true,
+	paintPicture: function() {
+		return 'Sarah paints!';
+	}
+};
+
+console.log(sister.paintPicture());
+// two equivalent ways to use the key to return its value
+console.log(sister['parents']); // returns [ "alice", "andy" ]
+console.log(sister.parents); // also returns ["alice", "andy"]
