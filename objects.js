@@ -116,3 +116,71 @@ var savingsAccount = {
 };
 
 console.log(savingsAccount.printAccountSummary());
+
+var savingsAccount = {
+	balance: 1000,
+	interestRatePercent: 1,
+	deposit: function addMoney(amount) {
+		if (amount > 0) {
+			savingsAccount.balance += amount;
+		}
+	},
+	withdraw: function removeMoney(amount) {
+		var verifyBalance = savingsAccount.balance - amount;
+		if (amount > 0 && verifyBalance >= 0) {
+			savingsAccount.balance -= amount;
+		}
+	}
+};
+
+/*
+ * Programming Quiz: Facebook Friends
+ */
+
+var facebookProfile = {
+	name: 'Heggy',
+	friends: 5,
+	messages: [ 'this is my first message' ],
+	postMessage: function addMessage(message) {
+		facebookProfile.messages.push(message);
+	},
+	deleteMessage: function removeMessage(index) {
+		// .splice(startIndex, NoElementToDelete)
+		facebookProfile.messages.splice(index, 1);
+	},
+	addFriend: function increaseFriend() {
+		facebookProfile.friends++;
+	},
+	removeFriend: function decreaseFriend() {
+		facebookProfile.friends--;
+	}
+};
+
+facebookProfile.removeFriend();
+facebookProfile.friends;
+facebookProfile.postMessage('In Cuba');
+facebookProfile.messages;
+facebookProfile.postMessage('In Bankok');
+facebookProfile.messages;
+facebookProfile.deleteMessage(1);
+
+var facebookProfile = {
+	name: 'Natalie Cyreus',
+	friends: 927,
+	messages: [ 'In Buenos Aires!', 'In Stockholm!', 'In New York!' ],
+	postMessage(message) {
+		facebookProfile.messages.push(message);
+	},
+	deleteMessage(index) {
+		facebookProfile.messages.splice(index, 1);
+	},
+	addFriend() {
+		facebookProfile.friends += 1;
+	},
+	removeFriend() {
+		facebookProfile.friends = facebookProfile.friends - 1;
+	}
+};
+
+console.log(facebookProfile.removeFriend());
+console.log(facebookProfile.friends);
