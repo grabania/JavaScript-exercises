@@ -196,3 +196,15 @@ let person = {
 };
 
 console.log(typeof person.showInfo);
+
+//Object Methods 1
+let person1 = {
+	name: 'John',
+	age: 32,
+	partTime: false,
+	showInfo: function() {
+		return 'hi';
+	}
+};
+
+console.log(person1.showInfo());
