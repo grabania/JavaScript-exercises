@@ -184,3 +184,15 @@ var facebookProfile = {
 
 console.log(facebookProfile.removeFriend());
 console.log(facebookProfile.friends);
+
+//Object Methods
+let person = {
+	name: 'John',
+	age: 32,
+	partTime: false,
+	showInfo: function() {
+		showMessage(this.name);
+	}
+};
+
+console.log(typeof person.showInfo);
